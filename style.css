@@ -54,14 +54,14 @@
     text-align: center;
     width: 100%;
     height: 790px;
-    padding-top: 10px;
+    padding-top: 35px;
     background: #1a7ec9;
     background: linear-gradient(130deg, rgb(14, 107, 177) 0%, rgba(108, 230, 221, 1) 100%);
  }
 
  .home-section .home h1{
     color: white;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-size: 50px;
  }
 
@@ -135,4 +135,49 @@
     letter-spacing: 1px;
     word-spacing: 1px;
     font-size: 12px;
+ } 
+
+ .tulisan-jasa h1{
+   color: #1a7ec9;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 200px;
+   margin-bottom: 150px;
+ }
+
+ .jasa-section{
+   margin-bottom: 100px;
+   display: flex;
+
+ }
+
+ .jasa-satu{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   justify-items: baseline;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+   width: 400px;
+   margin-bottom: 120px;
+ }
+
+ .jasa-satu img{
+   border-radius: 20px;
+   margin-left: 65px;
+   margin-bottom: 30px;
+   width: 250px;
+   height: 160px;
+ }
+
+ 
+
+ .jasa-satu h1{
+   color: #186eaf;
+ }
+
+ .jasa-satu p{
+   margin-top: 20px;
+   color: rgb(87, 87, 87);
  }
